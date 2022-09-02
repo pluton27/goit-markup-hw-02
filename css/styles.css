@@ -97,7 +97,8 @@ li {
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.button:active {
   color: var(--primary-bcg-color);
   background-color: var(--accent-color);
 }
