@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -21,7 +21,7 @@
           <span class="logo-web">Web</span><span class="logo-std">Studio</span>
         </a>
         <ul class="site-nav">
-          <li><a class="link state" href="./index.html">Студія</a></li>
+          <li><a class="link state current" href="./index.html">Студія</a></li>
           <li><a class="link state" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="link state" href="">Контакти</a></li>
         </ul>
@@ -35,7 +35,7 @@
       <!-- Hero section -->
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="button" type="button">Замовити послугу</button>
+        <button class="main-button" type="button">Замовити послугу</button>
       </section>
       <!-- Features section -->
       <section>
@@ -78,8 +78,8 @@
       </section>
       <!-- About section -->
       <section class="about">
-        <h2 class="about-title">Наша Команда</h2>
-        <ul>
+        <h2 class="about-title">Наша команда</h2>
+        <ul class="about-team">
           <li>
             <img src="images/team1.jpg" alt="Product Designer" width="270" />
             <h3 class="team-title">Ігор Дем'яненко</h3>
@@ -108,11 +108,11 @@
       <a class="logo" href="./index.html">
         <span class="logo-web">Web</span><span class="logo-std-white">Studio</span></a
       >
-      <address>
+      <address class="adress">
         <ul>
           <li>
             <a
-              class="adress state"
+              class="adress-street state"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
